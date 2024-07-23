@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:usercontrols="clr-namespace:WPF_Photo_Gallery.User_Controls">
+
+    <Style x:Key="BorderStyle3" TargetType="{x:Type Border}">
+        <Style.Setters>
+            <Setter Property="BorderBrush" Value="#FF280EB2"></Setter>
+            <Setter Property="BorderThickness" Value="3"></Setter>
+            <Setter Property="CornerRadius" Value="10"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="TextBlockStyle1" TargetType="{x:Type TextBlock}">
+        <Style.Setters>
+            <Setter Property="Margin" Value="20"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="LabelStyle1" TargetType="{x:Type Label}">
+        <Setter Property="Margin" Value="10, 0"></Setter>
+    </Style>
+    <Style x:Key="TextBoxStyle1" TargetType="{x:Type TextBox}">
+        <Style.Setters>
+            <Setter Property="Margin" Value="10, 0"></Setter>
+            <Setter Property="Height" Value="20"></Setter>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="PasswordBoxStyle1" TargetType="{x:Type usercontrols:BindablePasswordBox}">
+        <Style.Setters>
+            <Setter Property="Margin" Value="10, 0"></Setter>
+            <Setter Property="Height" Value="20"></Setter>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="TextBlockStyle2" TargetType="{x:Type TextBlock}">
+        <Style.Setters>
+            <Setter Property="Margin" Value="15, 10"></Setter>
+            <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="StackPanelStyle2" TargetType="{x:Type StackPanel}">
+        <Style.Setters>
+            <Setter Property="Orientation" Value="Horizontal"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style.Setters>
+    </Style>
+    <Style x:Key="ButtonStyle2" TargetType="{x:Type Button}" BasedOn="{StaticResource ButtonStyle1}">
+        <Setter Property="Width" Value="110"></Setter>
+    </Style>
+</ResourceDictionary>
